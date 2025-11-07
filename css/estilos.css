@@ -6,10 +6,11 @@
 
 div{
     border: 1px solid blue;
-    width: 650px;
-    height: 180px;
+    width: 90%;
+    max-width: 40em;
+    height: 11.25em;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 3.125em;
 }
 
 
@@ -17,18 +18,18 @@ div{
     background-color: gray;
     height: 90%;
     width: 25%;
-    margin-top: 3px;
-    margin-left: 170px;
-    position: static;
+    margin-top: 0.1875em;
+    margin-left: 10.625em;
+    position: relative;
 }
-    
+
 
 #circulo{
     background-color: red;
-    height: 15px;
-    width: 15px;
+    height: 0.9375em;
+    width: 0.9375em;
     position: absolute;
     border-radius: 100%;
-    top: 14%;
-    right: 53%;
+    top: 50%;
+    left: 50%;
 }
